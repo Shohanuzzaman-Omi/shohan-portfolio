@@ -1,21 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+
+*{
+  padding: 0;
+  margin: 0;
+  
+}
 img{
-  width: 100%;
+  width: 80%;
 }
 body{
   font-family: Poppins;
 }
 h1{
   font-size: 50px;
+  margin-top: 5%;
+  margin-bottom: 10px;
+}
+.head-line{
+  font-size: 55px;
+
 }
 .name-one{
-  color: rgb(255, 102, 0);
+  color: tomato;
 }
 
+.top-banner{
+  background-image: url("media/top-banner.png");
+  background-repeat: no-repeat;
+}  
 .half-width{
   width: 40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
+}
+.half-width h3{
+  margin-bottom: 10px;
+}
+section{
+  height: 500px;
+  padding-bottom: 150px;
+}
+.hire-btn{
+  text-decoration: none;
+  background-image: linear-gradient(rgb(255, 158, 141), tomato);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.hire-btn:hover{
+  background: whitesmoke;
+  color: black;
+  border: 2px solid tomato;
+  border-radius: 10px;
 }
