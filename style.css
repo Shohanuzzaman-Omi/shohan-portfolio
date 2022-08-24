@@ -17,6 +17,9 @@ h1{
   margin-top: 5%;
   margin-bottom: 10px;
 }
+p{
+  color: dimgray;
+}
 .head-line{
   font-size: 55px;
 
@@ -51,8 +54,16 @@ section{
   font-weight: bold;
 }
 .hire-btn:hover{
+  transition: 0.5s;
   background: whitesmoke;
   color: black;
   border: 2px solid tomato;
   border-radius: 10px;
+}
+.dream-area{
+  background-image: url("media/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  float: left;
+  
 }
