@@ -67,3 +67,33 @@ section{
   float: left;
   
 }
+.single-experience{
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 10px;
+  height: 65%;
+  background-color: #ffffff;
+}
+.experience-area{
+  background-image: url("media/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 30%;
+}
+#full-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+footer p{
+  text-align: center;
+  font-size: 14px;
+  padding: 25px 25px;
+  color: #000;
+  background-color: tomato;
+}
