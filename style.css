@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+img{
+  width: 100%;
+}
 body{
   font-family: Poppins;
+}
+h1{
+  font-size: 50px;
+}
+.name-one{
+  color: rgb(255, 102, 0);
+}
+
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
 }
